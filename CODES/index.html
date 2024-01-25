@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeShop.Com</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url(background1.jpg);
+      }
+      header {
+        background-color: linear-gradient(to right, #4caf50, #81c784);
+        padding: 20px;
+        text-align: center;
+      }
+      .background-image {
+        width: 100%;
+        height: auto;
+        size: 50%;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: linear-gradient(to bottom, #f4f4f4, #e6e6e6);
+        border-bottom: 1px solid #ddd;
+      }
+      .navbar button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .navbar button:hover {
+        background-color: #3e8e41;
+      }
+      .search-box {
+        margin-left: 20px;
+      }
+      .search-box input {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-wrap: wrap;
+      }
+      .clothing-box {
+        background-color: #f1f1f1;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 30px;
+        margin: 10px;
+        width: 250px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+      .clothing-box:hover {
+        transform: translateY(-5px);
+      }
+      .clothing-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="websiter name.jpg" alt="Title Name", width="200px">
+
+    </header>
+
+    
+    <div class="navbar">
+      <button onclick="displayHome()">Home</button>
+    </hr>
+      <div class="search-box">
+        <input type="text" placeholder="Search..." id="search-input" />
+        <button onclick="searchClothing()">Search</button>
+      </div>
+      <button onclick="displayAboutUs()">About Us</button>
+      <button onclick="displayHelp()">Help</button>
+    </div>
+
+    <a href="page2.html" target="_parent">
+      <div class="container">
+        <div class="clothing-box">
+          <img src="shirt1.webp" alt="Shirt" />
+        </a>
+          <h2>Shirt</h2>
+          <p>Price: ₹350-₹2,000</p>
+          
+        </div>
+    
+    
+    <a href="https://www.amazon.in/s?k=dress&ref=nb_sb_noss_1" target="_parent">
+      <div class="clothing-box">
+        <img src="dress1.jpeg" alt="Dress" />
+      </a>
+        <h2>Dress</h2>
+        <p>Price: ₹400-₹1200 </p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=Jeans&ref=nb_sb_noss_1" target="_parent">
+      <div class="clothing-box">
+        <img src="jeans.avif" alt="Jeans" />
+      </a>
+        <h2>Jeans</h2>
+        <p>Price: ₹400-₹1500 </p>
+      </div>
+      
+      <a href="https://www.amazon.in/s?k=shoes+un+isex&ref=nb_sb_noss" target="_parent"> 
+      <div class="clothing-box">
+        <img src="shoes1.jpg" alt="Shoes" />
+        </a>
+        <h2>Shoes - Unisex</h2>
+        <p>Price: ₹1,000-₹3,000 </p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=bags+for+women&ref=nb_sb_ss_ts-doa-p_2_4" target="_parent">
+      <div class="clothing-box">
+        <img src="bag2.webp" alt="Bags" />
+        </a>
+        <h2>Bags</h2>
+        <p>Price: ₹500-₹1400 </p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=kids+dress+girls+10-12&ref=nb_sb_ss_ts-doa-p_8_10" target="_parent">
+      <div class="clothing-box">
+        <img src="kids2.jpg" alt="Kids" />
+      </a>
+        <h2>Kids</h2>
+        <p>Price: ₹300-₹1200</p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=traditional+dress+for+women&ref=nb_sb_ss_ts-doa-p_2_11" target="_parent">
+      <div class="clothing-box">
+        <img src="traditional.webp" alt="Go with Traditions" />
+      </a>
+        <h2>Traditional OutFits - Women</h2>
+        <p>Price: ₹900-₹2,000 </p>
+      </div>
+ 
+      <a href="https://www.amazon.in/s?k=casual+shirts+for+men&ref=nb_sb_ss_ts-doa-p_2_6" target="_parent">
+      <div class="clothing-box">
+        <img src="casual.jpg" alt="Casual Wear" />
+      </a>
+        <h2>Casuals</h2>
+        <p>Price: ₹400-₹1500 ₹</p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=summer+outfits+for+men&ref=nb_sb_ss_ts-doa-p_3_14s" target="_parent">
+      <div class="clothing-box">
+        <img src="summer 1.webp" alt="Summer Outfits" />
+      </a>
+        <h2>Summer Outfits</h2>
+        <p>Price: ₹500-₹1500 </p>
+      </div>
+
+      <a href="https://www.amazon.in/s?k=indo+western+dress+for+men&ref=nb_sb_noss_1" target="_parent">
+      <div class="clothing-box">
+        <img src="Indo-Western.webp" alt="Indo_western theme Outfits" />
+      </a>
+        <h2> Indo-Western Outfits - MEN</h2>
+        <p>Price: ₹1,000-₹2,500 </p>
+      </div>
+      <!-- Add clothing items here -->
+    </div>
+
+    <script>
+      function displayHome() {
+        
+        alert("Welcome to the Home page of our shopping website.");
+      }
+
+      function displayAboutUs() {
+        alert(
+          "About Us: Our website is dedicated to providing you with the best shopping experience. We have a wide variety of clothing items available."
+        );
+      }
+
+      function displayHelp() {
+        alert(
+          "Need help? Please feel free to contact our customer support team."
+        );
+      }
+
+      function searchClothing() {
+        let searchInput = document.getElementById("search-input").value;
+        alert("Searching for: " + searchInput);
+      }
+    </script>
+
+    <p><a href="page2.html"> Shirts For Men</a></p>
+  </body>
+</html>
